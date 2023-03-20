@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container{
+    /* background-color: white; */
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/bg/img1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+.mbl-number{
+    padding: 25px;
+}
+
+.line{
+    border-bottom: 1px solid white;
+}
+
+.header-text{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 25%;
+
+}
+
+.header-btn {
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: 20px;
+    background-color: orange;
+}
+
+.header-btn button{
+    color: white;
+}
+
+.header-text h2{
+font-size: 40px;
+}
+
+/* second section */
+.second-section h3{
+ font-size: 30px;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+
+.second-section{
+height: 450px;
+width: 90%;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+.second-flex-img{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+    
+}
+
+.second-sec-btn{
+
+    padding: 12px;
+
+}
+.pko-text{
+    background-color: white;
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    top: 220px;
+}
+
+.img-one{
+    background: url(/image/operta/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+
+}
+
+
+.img-two{
+    background: url(/image/operta/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+
+}
+.img-three{
+    background: url(/image/operta/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+  
+
+}
+
+.pko-text h5 {
+    position: relative;
+    top: 10px;
+}
+
+.zoback-btn{
+    position: relative;
+    top: 50px;
+    left: 450px;
+    border: 1px solid orangered;
+    margin: auto;
+    width: 180px;
+    height: 40px;
+}
+
+/* third section */
+.third-section{
+    height: 400px;
+ 
+}
+.third-section h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.third-section-flex{
+    display: flex;
+
+    margin-top: 100px;
+    width: 80%;
+    margin: 100px;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+
+.fa-landmark, .fa-thumbs-up, .fa-language, .fa-thumbs-up{
+    font-size: 50px;
+    color: orangered;
+   
+}
+
+.third-icon-flex{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+}
+
+/* fourth-section */
+
+.fourth-section{
+    height: 550px;
+    /* background-color: gray; */
+}
+
+.fourth-section{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: 50px;
+}
+
+.fourth-section-flex{
+    display: flex;
+    /* background-color: red; */
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+    gap: 20px;
+   margin-bottom: 10px; 
+}
+
+.fourth-full-flex{
+    margin-top: 40px;
+}
+
+/* efecta fifth-section */
+
+.fifth-section{
+    height: 720px;
+    background: linear-gradient(rgb(255, 255, 255)50%, rgb(255, 165, 0)50% );
+    
+}
+.efecta-img{
+    border: 10px solid rgb(255, 255, 255);
+    width: 569px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+.fifth-section h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: 60px;
+}
+
+.efecta-text{
+
+    width: 60%;
+    margin:  190px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.efecta-text p{
+    font-weight: bold;
+}
+.efecta-icon{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    width: 40%;
+   
+    margin-left: 220px;
+  
+}
+.efecta-btn{
+    position: relative;
+    bottom: 180px;
+    left: 520px;
+    width: 130px;
+    height: 40px;
+    background-color: black ;
+    color: white;
+}
+
+
+
+/* six-section */
+
+.six-section{
+    height: 600px;
+    background-color: gainsboro;
+}
+
+.six-section h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: 60px;
+    /* background-color: red; */
+}
+
+.porady-flex{
+    display: flex;
+    /* background-color: red; */
+    height: 320px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+  margin-top: 100px; 
+
+
+
+
+
+}
+
+.porady-text h5{
+    color: orangered;
+}
+.porady-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.porady-btn{
+    width: 130px;
+    border: 1px solid orangered;
+    height: 40px;
+    background: transparent;
+}
+
+.porady-small-img-flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+ 
+    justify-content: space-between;
+    /* margin: 0 auto;   */
+
+
+
+}
+.porady-text-img-flex{
+
+    display: flex;
+    gap: 20px;
+}
+
+/* inspirace-section */
+
+.inspirace-section{
+      height: 450px;
+
+}
+
+.inspirace-section h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.inspire-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+/* ...............kamalokove-section.............. */
+
+.kamalokove-section{
+    height: 500px;
+
+
+}
+
+.kamalokove-section-flex{
+    display: flex;
+    position: relative;
+    top: 70px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.kamalokove-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+}
+.kamalokove-left h3{
+    font-size: 30px;
+}
+
+.kamalokove-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+    margin-top: 45px;
+}
+
+/* footer-section */
+
+.footer-section{
+    height: 400px;
+    background-color: rgb(28, 25, 25);
+    color: white;
+}
+
+.footer-section-flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-img-flex{
+    display: flex;
+    gap: 10px
+    ;
+}
+
+.footer-two h3{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.logo-footer{
+    position: relative;
+    bottom: 65px;
+}
+
+.facebook{
+    position: relative;
+    top: 55px;
+}
+
+.niche{
+    position: relative;
+    top: 65px;
+}
+
+.yellow-line{
+    height: 15px;
+    background-color: orange;
+}
